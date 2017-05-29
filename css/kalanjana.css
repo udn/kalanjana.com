@@ -83,7 +83,8 @@ a {
 }
 @media (max-width: 767px) {
   .header .nav-header .navbar-brand img {
-    width: 45px;
+    /*width: 45px;*/
+    width: 182px;
   }
 }
 .header .navbar-right {
