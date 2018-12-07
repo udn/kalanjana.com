@@ -6,13 +6,25 @@ import Image from '../components/image'
 
 const IndexPage = () => (
   <Layout>
-    <h1>Hi people</h1>
-    <p>Welcome to your new kalanjana site.</p>
-    <p>Now go build something great.</p>
+    <h1>Ayo buat produk yang disukai pengguna Anda.</h1>
+    <p>kalanjana adalah konsultan desain dan pengembangan yang membawa ide produk digital mu menjadi nyata.</p>
+
     <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
-      <Image />
+      <a href="mailto:udnpico@gmail.com">
+        <button style={{ 
+          maxWidth: '500px',
+          marginBottom: '1.45rem',
+          backgroundColor: 'red',
+          color: 'white',
+          fontWeight: 'bold',
+          borderRadius: '3px',
+          border: 'red',
+          padding: '15px' }}
+          >
+          Mulai Projek dengan kami
+        </button>
+      </a>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
 

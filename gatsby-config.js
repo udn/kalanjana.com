@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Kalanjana',
+    title: 'Kalanjana - studio kreatif membuat produk web dan mobile ',
+    heder: ''
   },
   plugins: [
     'gatsby-plugin-react-helmet',
