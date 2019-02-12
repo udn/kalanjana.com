@@ -13,6 +13,8 @@ const IndexPage = () => (
       <a href="mailto:udnpico@gmail.com">
         <button style={{ 
           maxWidth: '500px',
+          minWidth: '48px',
+          minHeight: '48px',
           marginBottom: '1.45rem',
           backgroundColor: 'red',
           color: 'white',

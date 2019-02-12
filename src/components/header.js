@@ -17,18 +17,62 @@ const Header = ({ siteTitle , siteLogo }) => (
         padding: '1.45rem 1.0875rem',
       }}
     >
-      <Logo/>
       <h1 style={{ margin: 0 }}>
         <Link
           to="/"
           style={{
-            color: 'white',
+            color: '#0500ff',
             textDecoration: 'none',
+            fontFamily: 'AvenirNext-Bold',
+            fontSize: '32px',
+            lineHeight: 1.25
           }}
         >
-          {siteTitle}
+          Kalanjana
         </Link>
       </h1>
+      <Link to="/" 
+        style={{
+          textDecoration: 'none',
+          fontFamily: 'AvenirNext',
+          fontSize: '18px',
+          color: '#191847',
+          lineHeight: 1.25
+        }}>
+          Home
+       </Link>
+      <Link to="/" 
+        style={{
+          textDecoration: 'none',
+          fontFamily: 'AvenirNext',
+          fontSize: '18px',
+          color: '#191847',
+          lineHeight: 1.25
+        }}>Tentang Kami</Link>
+      <Link to="/" 
+        style={{
+          textDecoration: 'none',
+          fontFamily: 'AvenirNext',
+          fontSize: '18px',
+          color: '#191847',
+          lineHeight: 1.25
+        }}>Teknologi</Link>
+      <button style={{
+        fontFamily: 'AvenirNext-DemiBold', 
+        fontSize: '14px',
+        fontWeight: 'bold',
+        maxWidth: '150px',
+        minWidth: '150px',
+        minHeight: '25px',
+        marginBottom: '1.45rem',
+        backgroundColor: '#2b44ff',
+        color: 'white',
+        fontWeight: 'bold',
+        borderRadius: '4px',
+        padding: '10px' }}
+        >
+        Mulai Project
+      </button>
     </div>
   </div>
 )
